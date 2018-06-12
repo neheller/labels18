@@ -1,0 +1,16 @@
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore0 -d psd -g 1 -m unet -p schop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore0 -d psd -g 1 -m unet -p mnat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore0 -d psd -g 1 -m fcn -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore0 -d psd -g 1 -m fcn -p lnat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore0 -d psd -g 1 -m segnet -p lchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m unet -p control
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m unet -p snat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m fcn -p schop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m fcn -p mnat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m segnet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore1 -d psd -g 1 -m segnet -p lnat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore2 -d psd -g 1 -m unet -p lchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore2 -d psd -g 1 -m fcn -p control
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore2 -d psd -g 1 -m fcn -p snat
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore2 -d psd -g 1 -m segnet -p schop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n encore2 -d psd -g 1 -m segnet -p mnat

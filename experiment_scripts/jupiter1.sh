@@ -1,0 +1,9 @@
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch0 -d lis -g 1 -m unet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch0 -d lis -g 1 -m fcn -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch0 -d lis -g 1 -m segnet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch1 -d lis -g 1 -m unet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch1 -d lis -g 1 -m fcn -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch1 -d lis -g 1 -m segnet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch2 -d lis -g 1 -m unet -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch2 -d lis -g 1 -m fcn -p mchop
+python3 /home/helle246/code/repos/Perturbation-Networks/model_runner.py -n crunch2 -d lis -g 1 -m segnet -p mchop
