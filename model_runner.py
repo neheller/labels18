@@ -272,6 +272,6 @@ if __name__ =='__main__':
 
 
 
-    # Stop execution for fuck's sake
+    # Stop execution ffs
     os.killpg(0, signal.SIGKILL)
     sys.exit()
